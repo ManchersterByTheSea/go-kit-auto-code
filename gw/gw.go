@@ -41,7 +41,6 @@ func main() {
 	filename := "information_comments_by_user_get.go"
 	gw := "sys"
 	name_method := "moment posts by user get"
-
 	filePathPre := "/Users/haikuotiankong/Desktop/go-code/src/xtech-kit/gw/" + gw + "-gw/pkg/" + gw
 
 	Service := Ucfirst(service)

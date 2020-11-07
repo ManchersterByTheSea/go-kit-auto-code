@@ -44,10 +44,10 @@ var (
 
 func main() {
 
-	service := "staff"
-	name := "staffInformation"
-	method := "Create"
-	filename := "staff_information_create.go"
+	service := "information"
+	name := "informationCommentsByUser"
+	method := "Get"
+	filename := "information_comments_by_user_get.go"
 	filePathPre := "/Users/haikuotiankong/Desktop/go-code/src/xtech-kit/api/" + service + "-api/"
 
 	Service := Ucfirst(service)

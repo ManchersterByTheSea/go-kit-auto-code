@@ -44,11 +44,10 @@ var (
 
 func main() {
 
-	service := "social"
-	name := "momentPostsByUser"
+	service := "information"
+	name := "informationCommentsByUser"
 	method := "Fetch"
-	filename := "moment_posts_by_user_fetch.go"
-
+	filename := "information_comments_by_user_fetch.go"
 	filePathPre := "/Users/haikuotiankong/Desktop/go-code/src/xtech-kit/svc/" + service + "-svc/"
 
 	Service := Ucfirst(service)

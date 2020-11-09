@@ -45,7 +45,7 @@ gw:
     service := 服务的名字,小写
     name :=  接口名字，首字母小写
     method := 方法名，首字母大写
-    METHOD := 方法名，全部大写
+    METHOD := restful方法名，全部大写
     router := 路由
     filename :=  要创建的文件名
     gw := 前台or后台
